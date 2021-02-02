@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.home .post img{
+ 
+  position: absolute;
+  top:20px;
+  left:-100px;
+  opacity: 0.6;
+}
+
+.home .post{
+  height: 170px;
+  overflow: hidden;
+  padding-left: 80px;
+}
+
+.font{
+  font-size: 2rem;
+  
+}
+.no-link:hover{
+  text-decoration: none;
+}
+
+.no-blue:hover{
+  color: #ffffff;
+}
+.details .plant-img{
+  position: relative;
+}
+.details .post p{
+  font-size: 1.5rem;
+}
+/* .details .post h2{
+  text-decoration: underline;
+} */
+.details .post h2::after{
+  content: '';
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  border: 0.2px solid #212565;
+
+}
+.details .post img{
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  border-radius: 5px;
+
+
+
+}
