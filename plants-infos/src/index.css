@@ -41,18 +41,18 @@ code {
 .details .plant-img{
   position: relative;
 }
-.details .post p{
+.details .post p, .about p, .contact p{
   font-size: 1.5rem;
 }
 /* .details .post h2{
   text-decoration: underline;
 } */
-.details .post h2::after{
+.details .post h2::after, .about h2::after, .contact h2::after{
   content: '';
   display: block;
   width: 200px;
   margin: 0 auto;
-  border: 0.2px solid #212565;
+  border: 0.2px solid rgba(0, 0, 0, 0.801);
 
 }
 .details .post img{
@@ -64,5 +64,27 @@ code {
   border-radius: 5px;
 
 
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
 
 }
+
+.icon{
+  margin: 15px;
+  transition: all .3s ease-in-out;
+  color: rgba(0, 0, 0, 0.822) ;
+  border-radius: 50%;
+}
+
+
+.icon:hover{
+  text-decoration: none;
+  color: #235324;
+  transform: scale(1.2);
+}
+
+
